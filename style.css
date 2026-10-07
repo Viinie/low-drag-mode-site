@@ -11,3 +11,11 @@ a { color: var(--lime); }
 ul { padding-left: 20px; }
 .yt { display: flex; gap: 14px; align-items: center; background: var(--card); border-radius: 12px; padding: 14px 16px; margin: 18px 0; }
 .yt svg { flex: none; }
+@media print {
+  body { background: #fff; color: #111; }
+  a { color: #0b57d0; }
+  h2 { color: #111; }
+  .small { color: #444; }
+  .yt { background: #f1f3f4; }
+  .logo { display: none; }
+}
