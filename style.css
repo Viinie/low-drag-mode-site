@@ -9,3 +9,5 @@ h2 { font-size: 20px; margin: 32px 0 8px; color: var(--lime); }
 .small { color: var(--muted); font-size: 14px; }
 a { color: var(--lime); }
 ul { padding-left: 20px; }
+.yt { display: flex; gap: 14px; align-items: center; background: var(--card); border-radius: 12px; padding: 14px 16px; margin: 18px 0; }
+.yt svg { flex: none; }
